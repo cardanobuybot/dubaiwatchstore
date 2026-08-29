@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "Dubai Watch Store",
+    "tagline": "Curated Timepieces from Dubai"
+  },
+  "nav": {
+    "collection": "Collection",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Private Collector · Dubai, UAE",
+    "title": "Rare Timepieces. Uncompromising Provenance.",
+    "subtitle": "A private curation of three exceptional watches, available for direct acquisition.",
+    "cta": "View Collection"
+  },
+  "collection": {
+    "title": "The Collection",
+    "subtitle": "Three pieces. Each verified, each ready for its next chapter.",
+    "priceLabel": "Price on request",
+    "inquire": "Inquire on WhatsApp",
+    "condition": "Condition",
+    "year": "Year",
+    "reference": "Reference"
+  },
+  "about": {
+    "title": "Discreet. Verified. Dubai.",
+    "body": "Operating privately from Dubai, we deal exclusively in pieces with complete provenance. Every watch is inspected, documented, and delivered with full papers. No listings, no middlemen — just direct conversation between collector and buyer."
+  },
+  "contact": {
+    "title": "Begin the Conversation",
+    "subtitle": "Direct inquiries only. Response within the hour, 7 days a week.",
+    "whatsapp": "Message on WhatsApp",
+    "email": "Email",
+    "location": "Dubai, United Arab Emirates"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "disclaimer": "Private sale by a UAE-based collector. Not a retail establishment."
+  },
+  "watches": {
+    "w1": {
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "reference": "126610LN",
+      "year": "2023",
+      "condition": "Unworn, full set",
+      "description": "Complete set with box, papers and warranty. Sealed protective stickers intact."
+    },
+    "w2": {
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak 41mm",
+      "reference": "15500ST",
+      "year": "2022",
+      "condition": "Mint, full set",
+      "description": "Stainless steel on integrated bracelet. Blue \"Grande Tapisserie\" dial."
+    },
+    "w3": {
+      "brand": "Patek Philippe",
+      "model": "Nautilus 5711",
+      "reference": "5711/1A-010",
+      "year": "2021",
+      "condition": "Excellent, full set",
+      "description": "The definitive luxury sports watch. Complete archive extract available."
+    }
+  }
+}
