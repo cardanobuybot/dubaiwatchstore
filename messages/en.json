@@ -6,7 +6,16 @@
   "nav": {
     "collection": "Collection",
     "about": "About",
+    "blog": "Journal",
     "contact": "Contact"
+  },
+  "blog": {
+    "journal": "Journal",
+    "title": "Notes on Timepieces from Dubai.",
+    "subtitle": "Occasional writings on the movements, cases, and details behind each piece.",
+    "readMore": "Read the note",
+    "back": "All notes",
+    "empty": "No notes yet."
   },
   "hero": {
     "eyebrow": "Handpicked in Dubai · Ready to Ship",

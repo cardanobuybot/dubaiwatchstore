@@ -16,15 +16,18 @@ export function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-8 text-xs uppercase tracking-widest text-white/60 md:flex">
-          <a href="#collection" className="hover:text-gold">
+          <Link href="/#collection" className="hover:text-gold">
             {t('nav.collection')}
-          </a>
-          <a href="#about" className="hover:text-gold">
+          </Link>
+          <Link href="/#about" className="hover:text-gold">
             {t('nav.about')}
-          </a>
-          <a href="#contact" className="hover:text-gold">
+          </Link>
+          <Link href="/blog" className="hover:text-gold">
+            {t('nav.blog')}
+          </Link>
+          <Link href="/#contact" className="hover:text-gold">
             {t('nav.contact')}
-          </a>
+          </Link>
         </nav>
 
         <LanguageSwitcher />
