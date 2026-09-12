@@ -9,14 +9,14 @@ export function Contact() {
       <div className="container-x">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            04 — {t('title')}
+            05 — {t('title')}
           </p>
           <h2 className="font-display text-4xl text-white md:text-6xl">
             {t('title')}
           </h2>
           <p className="mt-6 text-white/60">{t('subtitle')}</p>
 
-          <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-12 flex flex-col items-center gap-4">
             <a
               href={whatsappLink("Hello, I'd like to inquire about your collection.")}
               target="_blank"
@@ -26,16 +26,14 @@ export function Contact() {
               {t('whatsapp')}
             </a>
             <a
-              href={`mailto:${CONTACT.email}`}
-              className="btn-outline w-full sm:w-auto"
+              href={CONTACT.revolut}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs uppercase tracking-[0.25em] text-white/50 hover:text-gold"
             >
-              {t('email')}
+              {t('orPay')} →
             </a>
           </div>
-
-          <p className="mt-10 text-xs uppercase tracking-[0.3em] text-white/40">
-            {t('location')}
-          </p>
         </div>
       </div>
     </section>

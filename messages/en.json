@@ -45,8 +45,12 @@
     "title": "Begin the Conversation",
     "subtitle": "Direct inquiries only. Response within the hour, 7 days a week.",
     "whatsapp": "Message on WhatsApp",
-    "email": "Email",
-    "location": "Dubai, United Arab Emirates"
+    "orPay": "Or pay directly via Revolut"
+  },
+  "motion": {
+    "eyebrow": "On the Wrist · Downtown Dubai",
+    "title": "See them in motion.",
+    "subtitle": "Filmed at the foot of Burj Khalifa. Muted, autoplaying — press for sound not required."
   },
   "footer": {
     "rights": "All rights reserved.",

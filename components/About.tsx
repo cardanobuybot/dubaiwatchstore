@@ -8,7 +8,7 @@ export function About() {
       <div className="container-x grid gap-12 md:grid-cols-5">
         <div className="md:col-span-2">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            02 — Dubai
+            03 — Dubai
           </p>
           <h2 className="font-display text-4xl text-white md:text-5xl">
             {t('title')}

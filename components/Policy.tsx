@@ -14,7 +14,7 @@ export function Policy() {
       <div className="container-x">
         <div className="mb-14 max-w-2xl">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            03 — {t('title')}
+            04 — {t('title')}
           </p>
           <h2 className="font-display text-4xl text-white md:text-5xl">
             {t('subtitle')}
