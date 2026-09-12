@@ -1,6 +1,6 @@
 export const CONTACT = {
-  whatsapp: '971500000000',
-  whatsappDisplay: '+971 50 000 0000',
+  whatsapp: '37126275758',
+  whatsappDisplay: '+371 26 275 758',
   email: 'hello@dubaiwatchstore.ae',
   instagram: 'dubaiwatchstore',
   revolut: 'https://revolut.me/sirjevspavels?currency=AED&amount=550000',
