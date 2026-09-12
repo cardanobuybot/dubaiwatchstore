@@ -6,6 +6,7 @@ import { Link } from '@/i18n/routing';
 import { posts, getPost } from '@/content/blog/posts';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { Markdown } from '@/components/Markdown';
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -52,7 +53,6 @@ export default async function BlogPost({
 
 function Article({ post }: { post: NonNullable<ReturnType<typeof getPost>> }) {
   const t = useTranslations('blog');
-  const paragraphs = post.body.split(/\n\n+/);
 
   return (
     <article className="pb-24 pt-32 md:pt-40">
@@ -69,10 +69,8 @@ function Article({ post }: { post: NonNullable<ReturnType<typeof getPost>> }) {
         <h1 className="font-display mt-3 text-4xl leading-tight text-white md:text-5xl">
           {post.title}
         </h1>
-        <div className="mt-10 space-y-6 text-lg leading-relaxed text-white/70">
-          {paragraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+        <div className="mt-10 space-y-6">
+          <Markdown>{post.body}</Markdown>
         </div>
       </div>
     </article>
