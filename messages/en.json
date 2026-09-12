@@ -9,9 +9,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Private Collector · Dubai, UAE",
-    "title": "Rare Timepieces. Uncompromising Provenance.",
-    "subtitle": "A private curation of three exceptional watches, available for direct acquisition.",
+    "eyebrow": "Handpicked in Dubai · Ready to Ship",
+    "title": "Bold. Skeletonised. Unmistakably Dubai.",
+    "subtitle": "A trio of Seiko Mod skeleton watches in luxury-sport cases — direct from Dubai.",
     "cta": "View Collection"
   },
   "collection": {
@@ -24,8 +24,8 @@
     "reference": "Reference"
   },
   "about": {
-    "title": "Discreet. Verified. Dubai.",
-    "body": "Operating privately from Dubai, we deal exclusively in pieces with complete provenance. Every watch is inspected, documented, and delivered with full papers. No listings, no middlemen — just direct conversation between collector and buyer."
+    "title": "Direct. Discreet. Dubai.",
+    "body": "Operating privately from Dubai, we offer a curated line of Seiko Mod skeleton timepieces — built on Japanese TMI movements in luxury-sport cases with exhibition case backs. Every piece is inspected before it ships. No showroom, no middlemen — just direct conversation."
   },
   "contact": {
     "title": "Begin the Conversation",
@@ -40,28 +40,28 @@
   },
   "watches": {
     "w1": {
-      "brand": "Dubai Edition",
-      "model": "Frosted Black · Palm Dial",
+      "brand": "Seiko Mod",
+      "model": "Skeleton · Black DLC",
       "reference": "DXB-01",
       "year": "2025",
-      "condition": "Excellent",
-      "description": "Blackened case with frosted finish. Rose-gold palm-tree motif on onyx dial. A statement piece photographed at the base of Burj Khalifa."
+      "condition": "New — unworn",
+      "description": "TMI NH72A automatic with hand-winding and stop-second. Blackened bridges and dark rubies. Black PVD/DLC case and integrated bracelet. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
     },
     "w2": {
-      "brand": "Dubai Edition",
-      "model": "Iced Silver · Palm Dial",
+      "brand": "Seiko Mod",
+      "model": "Skeleton · Stainless Steel",
       "reference": "DXB-02",
       "year": "2025",
-      "condition": "Excellent",
-      "description": "Fully iced stainless steel case and bracelet. Silver palm motif on black dial. Full brilliance under Dubai sun."
+      "condition": "New — unworn",
+      "description": "TMI NH70A automatic with hand-winding and stop-second. Stainless steel case and integrated bracelet — brushed and polished. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
     },
     "w3": {
-      "brand": "Dubai Edition",
-      "model": "Frosted Rose Gold · Palm Dial",
+      "brand": "Seiko Mod",
+      "model": "Skeleton · Gold PVD",
       "reference": "DXB-03",
       "year": "2025",
-      "condition": "Excellent",
-      "description": "Warm rose-gold case with frosted texture. Rose-gold palm motif on onyx dial. The quintessential Dubai timepiece."
+      "condition": "New — unworn",
+      "description": "TMI NH71A automatic with hand-winding and stop-second. Gold-plated bridges and rotor. Gold PVD case and integrated bracelet. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
     }
   }
 }
