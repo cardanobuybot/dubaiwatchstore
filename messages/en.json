@@ -40,28 +40,28 @@
   },
   "watches": {
     "w1": {
-      "brand": "Rolex",
-      "model": "Submariner Date",
-      "reference": "126610LN",
-      "year": "2023",
-      "condition": "Unworn, full set",
-      "description": "Complete set with box, papers and warranty. Sealed protective stickers intact."
+      "brand": "Dubai Edition",
+      "model": "Frosted Black · Palm Dial",
+      "reference": "DXB-01",
+      "year": "2025",
+      "condition": "Excellent",
+      "description": "Blackened case with frosted finish. Rose-gold palm-tree motif on onyx dial. A statement piece photographed at the base of Burj Khalifa."
     },
     "w2": {
-      "brand": "Audemars Piguet",
-      "model": "Royal Oak 41mm",
-      "reference": "15500ST",
-      "year": "2022",
-      "condition": "Mint, full set",
-      "description": "Stainless steel on integrated bracelet. Blue \"Grande Tapisserie\" dial."
+      "brand": "Dubai Edition",
+      "model": "Iced Silver · Palm Dial",
+      "reference": "DXB-02",
+      "year": "2025",
+      "condition": "Excellent",
+      "description": "Fully iced stainless steel case and bracelet. Silver palm motif on black dial. Full brilliance under Dubai sun."
     },
     "w3": {
-      "brand": "Patek Philippe",
-      "model": "Nautilus 5711",
-      "reference": "5711/1A-010",
-      "year": "2021",
-      "condition": "Excellent, full set",
-      "description": "The definitive luxury sports watch. Complete archive extract available."
+      "brand": "Dubai Edition",
+      "model": "Frosted Rose Gold · Palm Dial",
+      "reference": "DXB-03",
+      "year": "2025",
+      "condition": "Excellent",
+      "description": "Warm rose-gold case with frosted texture. Rose-gold palm motif on onyx dial. The quintessential Dubai timepiece."
     }
   }
 }
