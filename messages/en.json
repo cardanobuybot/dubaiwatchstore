@@ -16,8 +16,11 @@
   },
   "collection": {
     "title": "The Collection",
-    "subtitle": "Three pieces. Each verified, each ready for its next chapter.",
-    "priceLabel": "Price on request",
+    "subtitle": "Three finishes. One price. Free worldwide shipping.",
+    "price": "5,500 AED",
+    "priceUsd": "≈ $1,499",
+    "shipping": "Free worldwide shipping",
+    "limitedBadge": "Limited · Dubai Series",
     "inquire": "Inquire on WhatsApp",
     "condition": "Condition",
     "year": "Year",

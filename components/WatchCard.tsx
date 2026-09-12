@@ -22,6 +22,9 @@ export function WatchCard({ watch }: { watch: Watch }) {
           className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
           loading="lazy"
         />
+        <span className="absolute top-4 start-4 border border-gold/60 bg-ink/70 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-gold backdrop-blur">
+          {t('collection.limitedBadge')}
+        </span>
       </div>
 
       <div className="flex flex-1 flex-col p-6">
@@ -53,17 +56,25 @@ export function WatchCard({ watch }: { watch: Watch }) {
           {description}
         </p>
 
-        <div className="mt-8 flex items-center justify-between border-t border-white/5 pt-6">
-          <span className="text-xs uppercase tracking-widest text-white/50">
-            {t('collection.priceLabel')}
-          </span>
+        <div className="mt-8 border-t border-white/5 pt-6">
+          <div className="flex items-baseline gap-3">
+            <span className="font-display text-2xl text-white">
+              {t('collection.price')}
+            </span>
+            <span className="text-xs text-white/50">
+              {t('collection.priceUsd')}
+            </span>
+          </div>
+          <p className="mt-1 text-[11px] uppercase tracking-[0.2em] text-gold/80">
+            {t('collection.shipping')}
+          </p>
           <a
             href={whatsappLink(msg)}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs uppercase tracking-widest text-gold hover:text-gold-light"
+            className="btn-gold mt-5 w-full"
           >
-            {t('collection.inquire')} →
+            {t('collection.inquire')}
           </a>
         </div>
       </div>
