@@ -9,7 +9,7 @@ export function Contact() {
       <div className="container-x">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            03 — {t('title')}
+            04 — {t('title')}
           </p>
           <h2 className="font-display text-4xl text-white md:text-6xl">
             {t('title')}

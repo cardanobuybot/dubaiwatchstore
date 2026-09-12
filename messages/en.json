@@ -22,6 +22,7 @@
     "shipping": "Free worldwide shipping",
     "limitedBadge": "Limited · Dubai Series",
     "inquire": "Inquire on WhatsApp",
+    "payRevolut": "Pay via Revolut",
     "condition": "Condition",
     "year": "Year",
     "reference": "Reference"
@@ -29,6 +30,16 @@
   "about": {
     "title": "Direct. Discreet. Dubai.",
     "body": "Operating privately from Dubai, we offer a curated line of Seiko Mod skeleton timepieces — built on Japanese TMI movements in luxury-sport cases with exhibition case backs. Every piece is inspected before it ships. No showroom, no middlemen — just direct conversation."
+  },
+  "policy": {
+    "title": "Terms",
+    "subtitle": "Please read before you buy.",
+    "b1Title": "Final Sale",
+    "b1Body": "All sales are final. Each watch is inspected, wound, and confirmed working before dispatch. Returns and refunds are not accepted.",
+    "b2Title": "Private Seller",
+    "b2Body": "I am a private individual, not a retail establishment. No storefront, no warranty desk — direct sale only.",
+    "b3Title": "Worldwide Shipping",
+    "b3Body": "Free tracked shipping worldwide. The buyer is responsible for any import duties or taxes in the destination country."
   },
   "contact": {
     "title": "Begin the Conversation",

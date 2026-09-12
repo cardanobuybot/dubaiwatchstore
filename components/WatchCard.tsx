@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import type { Watch } from '@/data/watches';
-import { whatsappLink } from '@/lib/contact';
+import { CONTACT, whatsappLink } from '@/lib/contact';
 
 export function WatchCard({ watch }: { watch: Watch }) {
   const t = useTranslations();
@@ -75,6 +75,14 @@ export function WatchCard({ watch }: { watch: Watch }) {
             className="btn-gold mt-5 w-full"
           >
             {t('collection.inquire')}
+          </a>
+          <a
+            href={CONTACT.revolut}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 block text-center text-[11px] uppercase tracking-[0.25em] text-white/50 hover:text-gold"
+          >
+            {t('collection.payRevolut')} →
           </a>
         </div>
       </div>

@@ -3,6 +3,7 @@ export const CONTACT = {
   whatsappDisplay: '+971 50 000 0000',
   email: 'hello@dubaiwatchstore.ae',
   instagram: 'dubaiwatchstore',
+  revolut: 'https://revolut.me/sirjevspavels?currency=AED&amount=550000',
 };
 
 export function whatsappLink(message: string): string {
