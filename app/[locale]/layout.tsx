@@ -7,16 +7,20 @@ import { routing } from '@/i18n/routing';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'Dubai Watch Store — Rare Timepieces, Verified Provenance',
+  title: 'Dubai Watch Store — Assembled in Dubai, Shipped Worldwide',
   description:
-    'A private curation of exceptional watches from Dubai. Direct acquisition, full papers, discreet handling.',
+    'A limited trio of Seiko Mod skeleton timepieces inspired by Palm Jumeirah. Japanese TMI movements. Assembled in Dubai. Free worldwide shipping.',
   metadataBase: new URL('https://dubaiwatchstore.ae'),
   openGraph: {
     title: 'Dubai Watch Store',
-    description: 'Rare timepieces. Verified provenance. Dubai.',
+    description:
+      'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai.',
     url: 'https://dubaiwatchstore.ae',
     siteName: 'Dubai Watch Store',
     type: 'website',
+  },
+  verification: {
+    google: 'VLFCe_9aYn3PBBDTp8otVOhLO8St893nyIV6yOfaNts',
   },
 };
 
