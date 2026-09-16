@@ -6,13 +6,10 @@ export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-16">
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center opacity-40"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&w=2400&q=80')",
-        }}
+        className="absolute inset-0 z-0 bg-cover bg-center opacity-50"
+        style={{ backgroundImage: "url('/hero-watch.jpg')" }}
       />
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-ink/70 via-ink/60 to-ink" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-ink/60 via-ink/55 to-ink" />
 
       <div className="container-x relative z-10">
         <p className="mb-6 text-xs uppercase tracking-[0.3em] text-gold">
