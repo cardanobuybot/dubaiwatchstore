@@ -6,26 +6,47 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import '../globals.css';
 
-export const metadata: Metadata = {
-  title: 'Dubai Watch Store — Assembled in Dubai, Shipped Worldwide',
-  description:
-    'A limited trio of Seiko Mod skeleton timepieces inspired by Palm Jumeirah. Japanese TMI movements. Assembled in Dubai. Free worldwide shipping.',
-  metadataBase: new URL('https://dubaiwatchstore.ae'),
-  openGraph: {
-    title: 'Dubai Watch Store',
-    description:
-      'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai.',
-    url: 'https://dubaiwatchstore.ae',
-    siteName: 'Dubai Watch Store',
-    type: 'website',
-  },
-  verification: {
-    google: 'VLFCe_9aYn3PBBDTp8otVOhLO8St893nyIV6yOfaNts',
-  },
-};
+const SITE_URL = 'https://dubaiwatchstore.ae';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    title: 'Dubai Watch Store — Assembled in Dubai, Shipped Worldwide',
+    description:
+      'A limited trio of Seiko Mod skeleton timepieces inspired by Palm Jumeirah. Japanese TMI movements. Assembled in Dubai. Free worldwide shipping.',
+    metadataBase: new URL(SITE_URL),
+    // Canonical и hreflang для каждой локали — Google больше не считает
+    // en/ar «копиями без выбранного каноникала».
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        en: '/en',
+        ar: '/ar',
+        'x-default': '/en',
+      },
+    },
+    openGraph: {
+      title: 'Dubai Watch Store',
+      description:
+        'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai.',
+      url: `${SITE_URL}/${locale}`,
+      siteName: 'Dubai Watch Store',
+      type: 'website',
+      locale: locale === 'ar' ? 'ar_AE' : 'en_AE',
+    },
+    verification: {
+      google: 'VLFCe_9aYn3PBBDTp8otVOhLO8St893nyIV6yOfaNts',
+    },
+  };
 }
 
 export default async function LocaleLayout({
