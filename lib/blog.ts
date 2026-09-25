@@ -65,11 +65,19 @@ function dirFor(locale: Locale): string {
   return path.join(ROOT, locale);
 }
 
+// HTML comments are used in posts as author-only notes (e.g. `<!-- VERIFY -->`).
+// react-markdown without rehype-raw escapes them into visible text, so we
+// strip them here before parsing. Multi-line comments are covered too.
+function stripHtmlComments(md: string): string {
+  return md.replace(/<!--[\s\S]*?-->/g, '');
+}
+
 function readMdx(locale: Locale, slug: string): Post | null {
   const file = path.join(dirFor(locale), `${slug}.md`);
   if (!fs.existsSync(file)) return null;
   const raw = fs.readFileSync(file, 'utf8');
-  const { data, content } = matter(raw);
+  const { data, content: rawContent } = matter(raw);
+  const content = stripHtmlComments(rawContent);
   const frontmatter = { ...data, slug, lang: locale } as PostFrontmatter;
   return {
     frontmatter,
