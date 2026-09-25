@@ -26,7 +26,7 @@ export function Navbar() {
           className="font-display text-xl tracking-wide text-white hover:text-gold"
           onClick={close}
         >
-          {t('brand.name')}
+          Dubai Watch Store
         </Link>
 
         <nav className="hidden items-center gap-8 text-xs uppercase tracking-widest text-white/60 md:flex">
