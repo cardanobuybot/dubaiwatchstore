@@ -63,7 +63,7 @@ export async function HomeJsonLd({ locale }: { locale: string }) {
       url: SITE_URL,
       logo: `${SITE_URL}/apple-icon.png`,
       description:
-        'Private UAE-based seller of the Dubai Series — a trio of Seiko Mod skeleton timepieces assembled in Dubai.',
+        'Private UAE-based seller of the Dubai Series — a trio of hand-assembled skeleton timepieces built in Dubai on Japanese TMI automatic movements.',
       email: CONTACT.email,
       sameAs: [
         `https://www.instagram.com/${CONTACT.instagram}`,

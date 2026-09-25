@@ -27,7 +27,7 @@ export const posts: Post[] = [
 
 ## The Case
 
-The concept rests on a recognisable, brutal design — integrated bracelet, textured case, presence on the wrist. But the true soul of each piece lives beneath a transparent case back. For this trio we chose high-precision Japanese movements from **TMI (Seiko Group)**, respected by watch enthusiasts worldwide for uncompromising reliability.
+The concept rests on a recognisable, brutal design — integrated bracelet, textured case, presence on the wrist. But the true soul of each piece lives beneath a transparent case back. For this trio we chose high-precision Japanese automatic movements from **TMI (Time Module Inc., Japan)**, respected by watch enthusiasts worldwide for uncompromising reliability.
 
 ## Three Calibers, Three Finishes
 
@@ -46,7 +46,7 @@ This mini-release blurs the line between mass watchmaking and the high art of cu
 
 ## الهيكل
 
-يستند التصميم إلى لغة قوية ومميّزة — سوار مدمج، وعلبة بلمسة نسيجية، وحضور واضح على المعصم. لكن روح كل قطعة تسكن خلف غطاء خلفي شفاف. اخترنا لهذه الثلاثية حركات يابانية عالية الدقة من **TMI (Seiko Group)**، تحظى بتقدير هواة الساعات حول العالم لموثوقيتها التي لا تتزحزح.
+يستند التصميم إلى لغة قوية ومميّزة — سوار مدمج، وعلبة بلمسة نسيجية، وحضور واضح على المعصم. لكن روح كل قطعة تسكن خلف غطاء خلفي شفاف. اخترنا لهذه الثلاثية حركات يابانية أوتوماتيكية عالية الدقة من **TMI (Time Module Inc.، اليابان)**، تحظى بتقدير هواة الساعات حول العالم لموثوقيتها التي لا تتزحزح.
 
 ## ثلاث حركات. ثلاث لمسات.
 
@@ -77,7 +77,7 @@ This mini-release blurs the line between mass watchmaking and the high art of cu
     body: {
       en: `Every watch in this collection has been chosen by hand, from Dubai. The Journal is where I write about the **movements** inside, the finishing, and the small details worth knowing before you wear one.
 
-This is not a catalogue. It is a slow record of what makes a well-executed Seiko Mod worth its price:
+This is not a catalogue. It is a slow record of what makes a well-executed hand-assembled skeleton worth its price:
 
 - the depth of a good *frosted* finish
 - the tolerances of the [NH72A caliber](https://calibercorner.com/tmi-caliber-nh72a/)
@@ -86,7 +86,7 @@ This is not a catalogue. It is a slow record of what makes a well-executed Seiko
 New notes appear when there is something worth saying. No SEO fluff, no filler.`,
       ar: `اختيرت كل ساعة في هذه المجموعة يدويًا من دبي. هذه المدوّنة مكان لأكتب فيه عن **الحركات** بداخلها، والصياغة، والتفاصيل الصغيرة التي تستحق المعرفة قبل ارتدائها.
 
-هذه ليست فهرسًا. إنها سجل بطيء لما يجعل ساعة Seiko Mod مُتقنة تستحق سعرها:
+هذه ليست فهرسًا. إنها سجل بطيء لما يجعل ساعة مُجمَّعة يدوياً بميناء مكشوف مُتقنة تستحق سعرها:
 
 - عمق لمسة *الصنفرة* الجيدة
 - تفاوتات حركة [NH72A](https://calibercorner.com/tmi-caliber-nh72a/)

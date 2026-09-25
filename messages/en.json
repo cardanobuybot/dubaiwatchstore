@@ -20,7 +20,7 @@
   "hero": {
     "eyebrow": "Handpicked in Dubai · Ready to Ship",
     "title": "Bold. Skeletonised. Unmistakably Dubai.",
-    "subtitle": "A trio of Seiko Mod skeleton watches in luxury-sport cases — direct from Dubai.",
+    "subtitle": "A trio of hand-assembled skeleton watches in luxury-sport cases — direct from Dubai.",
     "cta": "View Collection"
   },
   "collection": {
@@ -38,7 +38,7 @@
   },
   "about": {
     "title": "Direct. Discreet. Dubai.",
-    "body": "Operating privately from Dubai, we offer a curated line of Seiko Mod skeleton timepieces — built on Japanese TMI movements in luxury-sport cases with exhibition case backs. Every piece is inspected before it ships. No showroom, no middlemen — just direct conversation."
+    "body": "Operating privately from Dubai, we offer a curated line of hand-assembled skeleton timepieces — built on Japanese TMI automatic movements in luxury-sport cases with exhibition case backs. Every piece is inspected before it ships. No showroom, no middlemen — just direct conversation."
   },
   "policy": {
     "title": "Terms",
@@ -67,7 +67,7 @@
   },
   "watches": {
     "w1": {
-      "brand": "Seiko Mod",
+      "brand": "Dubai Series",
       "model": "Skeleton · Black DLC",
       "reference": "DXB-01",
       "year": "2025",
@@ -75,7 +75,7 @@
       "description": "TMI NH72A automatic with hand-winding and stop-second. Blackened bridges and dark rubies. Black PVD/DLC case and integrated bracelet. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
     },
     "w2": {
-      "brand": "Seiko Mod",
+      "brand": "Dubai Series",
       "model": "Skeleton · Stainless Steel",
       "reference": "DXB-02",
       "year": "2025",
@@ -83,7 +83,7 @@
       "description": "TMI NH70A automatic with hand-winding and stop-second. Stainless steel case and integrated bracelet — brushed and polished. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
     },
     "w3": {
-      "brand": "Seiko Mod",
+      "brand": "Dubai Series",
       "model": "Skeleton · Gold PVD",
       "reference": "DXB-03",
       "year": "2025",
