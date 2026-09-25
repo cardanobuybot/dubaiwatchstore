@@ -19,11 +19,11 @@ export const posts: Post[] = [
       ar: 'ثلاثية دبي. ثلاث ساعات. لا أكثر.',
     },
     excerpt: {
-      en: 'A three-piece micro-drop inspired by Palm Jumeirah — Japanese TMI movements under sapphire, Assembled in Dubai.',
-      ar: 'دفعة مصغّرة من ثلاث قطع مستوحاة من نخلة جميرا — حركات يابانية من TMI تحت زجاج شفاف، مُجمَّعة في دبي.',
+      en: 'A three-piece micro-drop inspired by Palm Jumeirah — Japanese TMI automatic movements, hand-designed Palm dial. One of each finish.',
+      ar: 'دفعة مصغّرة من ثلاث قطع مستوحاة من نخلة جميرا — حركات يابانية أوتوماتيكية من TMI، ميناء مصمّم يدوياً حول شكل النخلة. واحدة من كل لمسة.',
     },
     body: {
-      en: `Uniqueness is born where bold ambition meets the discipline of jewellery-grade craft. This new micro-series of just three custom timepieces, inspired by the grandeur of **Palm Jumeirah**, is a clean example. The drop is strictly limited: exactly three unique pieces enter the world, each carrying the architectural silhouette and luxury of one of the most recognisable places on the planet. The custom dial preserves the outline of the legendary man-made island in fine detail, and the commemorative *Assembled in Dubai* inscription quietly asserts the project's bespoke origin.
+      en: `Uniqueness is born where bold ambition meets the discipline of jewellery-grade craft. This new micro-series of just three custom timepieces, inspired by the grandeur of **Palm Jumeirah**, is a clean example. The drop is strictly limited: exactly three unique pieces enter the world, each carrying the architectural silhouette and luxury of one of the most recognisable places on the planet. The custom dial preserves the outline of the legendary man-made island in fine detail, and each case back is engraved 1/1 — a quiet mark of the project's bespoke origin.
 
 ## The Case
 
@@ -34,7 +34,7 @@ The concept rests on a recognisable, brutal design — integrated bracelet, text
 Each version received an individual execution of its caliber, matched to the case:
 
 - **Silver** — [NH70A](https://calibercorner.com/tmi-caliber-nh70a/) in classic steel, underscoring purity of line
-- **Gold** — NH71A with gold-plated bridges and a skeletonised rotor, in harmony with the warm case
+- **Gold** — NH71A with gold-plated bridges and an openworked rotor, in harmony with the warm case
 - **Black** — NH72A with a deep dark coating, a monochrome study in modern stealth
 
 ## Shared Specifications
@@ -42,7 +42,7 @@ Each version received an individual execution of its caliber, matched to the cas
 All three movements share professional characteristics: reliable automatic winding with a manual-wind option, **24 ruby jewels** for smooth motion and long life, a frequency of **21,600 vph**, and a solid **41-hour power reserve**. The stop-seconds function allows precise setting to the second.
 
 This mini-release blurs the line between mass watchmaking and the high art of customisation. The owner of one of these three pieces does not simply acquire a stylish accessory — they acquire a rare collectible artefact that unites Japanese mechanics, the spirit of Dubai, and uncompromising style.`,
-      ar: `تُولَد الفرادة حين تلتقي الطموحات الجريئة بحرفية الصياغة. وهذه السلسلة المصغّرة من ثلاث ساعات مخصّصة، المستوحاة من عظمة **نخلة جميرا**، مثال ناصع على ذلك. الإصدار محدود بصرامة: ثلاث قطع فريدة فقط تُطرح إلى النور، تحمل كل منها الجماليات المعمارية وفخامة أحد أشهر المعالم على الكوكب. يحفظ الميناء المخصّص ملامح الجزيرة الاصطناعية الأسطورية بتفاصيل دقيقة، وتؤكّد النقشة التذكارية *Assembled in Dubai* أصل المشروع الفريد بصمت.
+      ar: `تُولَد الفرادة حين تلتقي الطموحات الجريئة بحرفية الصياغة. وهذه السلسلة المصغّرة من ثلاث ساعات مخصّصة، المستوحاة من عظمة **نخلة جميرا**، مثال ناصع على ذلك. الإصدار محدود بصرامة: ثلاث قطع فريدة فقط تُطرح إلى النور، تحمل كل منها الجماليات المعمارية وفخامة أحد أشهر المعالم على الكوكب. يحفظ الميناء المخصّص ملامح الجزيرة الاصطناعية الأسطورية بتفاصيل دقيقة، ويُحفَر على كل غطاء خلفي 1/1 — علامة هادئة على أصل المشروع الفريد.
 
 ## الهيكل
 
@@ -77,7 +77,7 @@ This mini-release blurs the line between mass watchmaking and the high art of cu
     body: {
       en: `Every watch in this collection has been chosen by hand, from Dubai. The Journal is where I write about the **movements** inside, the finishing, and the small details worth knowing before you wear one.
 
-This is not a catalogue. It is a slow record of what makes a well-executed hand-assembled skeleton worth its price:
+This is not a catalogue. It is a slow record of what makes a well-executed hand-assembled piece worth its price:
 
 - the depth of a good *frosted* finish
 - the tolerances of the [NH72A caliber](https://calibercorner.com/tmi-caliber-nh72a/)
@@ -86,7 +86,7 @@ This is not a catalogue. It is a slow record of what makes a well-executed hand-
 New notes appear when there is something worth saying. No SEO fluff, no filler.`,
       ar: `اختيرت كل ساعة في هذه المجموعة يدويًا من دبي. هذه المدوّنة مكان لأكتب فيه عن **الحركات** بداخلها، والصياغة، والتفاصيل الصغيرة التي تستحق المعرفة قبل ارتدائها.
 
-هذه ليست فهرسًا. إنها سجل بطيء لما يجعل ساعة مُجمَّعة يدوياً بميناء مكشوف مُتقنة تستحق سعرها:
+هذه ليست فهرسًا. إنها سجل بطيء لما يجعل ساعة مُجمَّعة يدوياً مُتقنة تستحق سعرها:
 
 - عمق لمسة *الصنفرة* الجيدة
 - تفاوتات حركة [NH72A](https://calibercorner.com/tmi-caliber-nh72a/)

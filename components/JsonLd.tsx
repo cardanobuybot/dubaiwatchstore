@@ -23,14 +23,11 @@ export async function HomeJsonLd({ locale }: { locale: string }) {
   const products = watches.map((w) => ({
     '@type': 'Product',
     '@id': `${SITE_URL}/${locale}#${w.id}`,
-    sku: t(`${w.id}.reference`),
-    name: `${t(`${w.id}.brand`)} ${t(`${w.id}.model`)}`,
+    name: `${t(`${w.id}.brand`)} · ${t(`${w.id}.model`)}`,
     description: t(`${w.id}.description`),
     image: `${SITE_URL}${w.image}`,
     brand: { '@id': orgId },
-    productionDate: String(t(`${w.id}.year`)),
     itemCondition: 'https://schema.org/NewCondition',
-    releaseDate: '2025',
     offers: {
       '@type': 'Offer',
       priceCurrency: 'AED',
@@ -59,11 +56,11 @@ export async function HomeJsonLd({ locale }: { locale: string }) {
     {
       '@type': 'Organization',
       '@id': orgId,
-      name: 'Dubai Watch Store',
+      name: 'The Palm Collection',
       url: SITE_URL,
       logo: `${SITE_URL}/apple-icon.png`,
       description:
-        'Private UAE-based seller of the Dubai Series — a trio of hand-assembled skeleton timepieces built in Dubai on Japanese TMI automatic movements.',
+        'The Palm Collection — three one-of-one automatic watches with a hand-designed Palm dial, made in Dubai on Japanese TMI automatic movements.',
       email: CONTACT.email,
       sameAs: [
         `https://www.instagram.com/${CONTACT.instagram}`,
@@ -82,7 +79,7 @@ export async function HomeJsonLd({ locale }: { locale: string }) {
       '@type': 'WebSite',
       '@id': `${SITE_URL}#website`,
       url: SITE_URL,
-      name: 'Dubai Watch Store',
+      name: 'The Palm Collection',
       inLanguage: locale === 'ar' ? 'ar-AE' : 'en-AE',
       publisher: { '@id': orgId },
     },

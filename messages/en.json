@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Dubai Watch Store",
-    "tagline": "Curated Timepieces from Dubai"
+    "name": "The Palm Collection",
+    "tagline": "Three One-of-One Automatic Watches from Dubai"
   },
   "nav": {
     "collection": "Collection",
@@ -18,77 +18,80 @@
     "empty": "No notes yet."
   },
   "hero": {
-    "eyebrow": "Handpicked in Dubai · Ready to Ship",
-    "title": "Bold. Skeletonised. Unmistakably Dubai.",
-    "subtitle": "A trio of hand-assembled skeleton watches in luxury-sport cases — direct from Dubai.",
-    "cta": "View Collection"
+    "eyebrow": "The Palm Collection · Three Pieces. Never Repeated.",
+    "title": "Dubai, on your wrist.",
+    "subtitle": "Three automatic watches built around one idea: the Palm, drawn into the dial. One of each finish. When they're gone, they're gone.",
+    "cta": "View the Three"
   },
   "collection": {
     "title": "The Collection",
-    "subtitle": "Three finishes. One price. Free worldwide shipping.",
+    "subtitle": "Three watches. Three owners. That's it.",
     "price": "5,500 AED",
     "priceUsd": "≈ $1,499",
     "shipping": "Free worldwide shipping",
-    "limitedBadge": "Limited · Dubai Series",
-    "inquire": "Inquire on WhatsApp",
+    "limitedBadge": "1 of 1",
+    "inquire": "Reserve on WhatsApp",
     "payRevolut": "Pay via Revolut",
-    "condition": "Condition",
-    "year": "Year",
-    "reference": "Reference"
+    "specsLabel": "Specs"
+  },
+  "dial": {
+    "eyebrow": "The Dial",
+    "title": "Why the Palm.",
+    "body1": "Some places you visit. Dubai is a place you carry with you. The Palm is its signature, a shape you recognise from the sky and never forget.",
+    "body2": "I designed the dial around it and built each watch by hand from carefully chosen parts. Then I stopped at three. No series, no restock, no second edition. Each piece is engraved 1/1 on the case back."
   },
   "about": {
-    "title": "Direct. Discreet. Dubai.",
-    "body": "Operating privately from Dubai, we offer a curated line of hand-assembled skeleton timepieces — built on Japanese TMI automatic movements in luxury-sport cases with exhibition case backs. Every piece is inspected before it ships. No showroom, no middlemen — just direct conversation."
+    "title": "One maker. Three watches.",
+    "body": "This isn't a store. It's a small personal project: a watch I wanted to exist, made in three finishes. Every piece is inspected, wound and tested before it ships. You deal directly with me, from the first message to the tracking number."
   },
   "policy": {
-    "title": "Terms",
-    "subtitle": "Please read before you buy.",
-    "b1Title": "Final Sale",
-    "b1Body": "All sales are final. Each watch is inspected, wound, and confirmed working before dispatch. Returns and refunds are not accepted.",
-    "b2Title": "Private Seller",
-    "b2Body": "I am a private individual, not a retail establishment. No storefront, no warranty desk — direct sale only.",
-    "b3Title": "Worldwide Shipping",
-    "b3Body": "Free tracked shipping worldwide. The buyer is responsible for any import duties or taxes in the destination country."
+    "title": "Before you buy",
+    "subtitle": "Four things to know.",
+    "b1Title": "One of one",
+    "b1Body": "Each watch exists only once. The piece you see is the piece you receive.",
+    "b2Title": "Warranty",
+    "b2Body": "12 months on the movement. If it stops keeping time, I'll repair it.",
+    "b3Title": "Shipping",
+    "b3Body": "Free tracked worldwide shipping. Import duties and taxes in your country are paid by the buyer.",
+    "b4Title": "Sales",
+    "b4Body": "Private sale, not a retail establishment."
   },
   "contact": {
-    "title": "Begin the Conversation",
-    "subtitle": "Direct inquiries only. Response within the hour, 7 days a week.",
+    "title": "Claim yours before someone else does.",
+    "subtitle": "Message me directly. I usually reply within the hour.",
     "whatsapp": "Message on WhatsApp",
     "orPay": "Or pay directly via Revolut"
   },
   "motion": {
-    "eyebrow": "On the Wrist · Downtown Dubai",
-    "title": "See them in motion.",
-    "subtitle": "Filmed at the foot of Burj Khalifa. Muted, autoplaying — press for sound not required."
+    "eyebrow": "On the Wrist",
+    "title": "See them in Dubai.",
+    "subtitle": "Filmed at the foot of Burj Khalifa."
   },
   "footer": {
     "rights": "All rights reserved.",
-    "disclaimer": "Private sale by a UAE-based collector. Not a retail establishment."
+    "disclaimer": "The Palm dial is an original design, not affiliated with any developer or watch brand."
   },
   "watches": {
     "w1": {
-      "brand": "Dubai Series",
-      "model": "Skeleton · Black DLC",
-      "reference": "DXB-01",
-      "year": "2025",
-      "condition": "New — unworn",
-      "description": "TMI NH72A automatic with hand-winding and stop-second. Blackened bridges and dark rubies. Black PVD/DLC case and integrated bracelet. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
+      "brand": "The Palm",
+      "model": "Black",
+      "tagline": "Midnight over the Palm.",
+      "description": "Black DLC case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH72A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     },
     "w2": {
-      "brand": "Dubai Series",
-      "model": "Skeleton · Stainless Steel",
-      "reference": "DXB-02",
-      "year": "2025",
-      "condition": "New — unworn",
-      "description": "TMI NH70A automatic with hand-winding and stop-second. Stainless steel case and integrated bracelet — brushed and polished. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
+      "brand": "The Palm",
+      "model": "Steel",
+      "tagline": "Daylight on the water.",
+      "description": "Brushed and polished stainless steel case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH70A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     },
     "w3": {
-      "brand": "Dubai Series",
-      "model": "Skeleton · Gold PVD",
-      "reference": "DXB-03",
-      "year": "2025",
-      "condition": "New — unworn",
-      "description": "TMI NH71A automatic with hand-winding and stop-second. Gold-plated bridges and rotor. Gold PVD case and integrated bracelet. Skeleton dial with exhibition case back. 24 jewels · 21,600 vph · ~41h power reserve."
+      "brand": "The Palm",
+      "model": "Gold",
+      "tagline": "Sunset over the fronds.",
+      "description": "Gold PVD case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH71A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     }
   }
 }

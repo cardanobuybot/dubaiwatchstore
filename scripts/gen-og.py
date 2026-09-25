@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate public/og.png (1200x630) — no Seiko references."""
+"""Regenerate public/og.png (1200x630) — The Palm Collection."""
 import io
 from pathlib import Path
 
@@ -27,17 +27,20 @@ png_bytes = cairosvg.svg2png(url=str(ICON_SVG), output_width=96, output_height=9
 icon = Image.open(io.BytesIO(png_bytes)).convert("RGBA")
 img.paste(icon, (72, 72), icon)
 
-d.text((184, 92), "DUBAI WATCH STORE", font=ImageFont.truetype(SANS, 26), fill=GOLD)
-d.text((184, 128), "Assembled in Dubai · Shipped Worldwide", font=ImageFont.truetype(SERIF_R, 22), fill=MUTED)
+d.text((184, 92), "THE PALM COLLECTION", font=ImageFont.truetype(SANS, 26), fill=GOLD)
+d.text((184, 128), "Three One-of-One Automatic Watches", font=ImageFont.truetype(SERIF_R, 22), fill=MUTED)
 
-d.text((72, 240), "Bold. Skeletonised.", font=ImageFont.truetype(SERIF_B, 84), fill=FG)
-d.text((72, 336), "Unmistakably Dubai.", font=ImageFont.truetype(SERIF_B, 84), fill=FG)
+d.text((72, 240), "Dubai, on your wrist.", font=ImageFont.truetype(SERIF_B, 84), fill=FG)
 
-d.text((72, 470), "A hand-assembled trio · 5,500 AED · Free worldwide shipping",
+d.text((72, 356), "The Palm, drawn into the dial.", font=ImageFont.truetype(SERIF_R, 34), fill=FG)
+d.text((72, 400), "One of each finish. When they're gone, they're gone.",
+       font=ImageFont.truetype(SERIF_R, 24), fill=MUTED)
+
+d.text((72, 470), "5,500 AED · Free worldwide tracked shipping",
        font=ImageFont.truetype(SERIF_R, 30), fill=MUTED)
 
 d.line([(72, 538), (172, 538)], fill=GOLD, width=2)
-d.text((72, 552), "DXB-01  ·  DXB-02  ·  DXB-03",
+d.text((72, 552), "The Palm  ·  Black    Steel    Gold",
        font=ImageFont.truetype(SANS, 22), fill=FG)
 
 img.save(OUT, "PNG", optimize=True)

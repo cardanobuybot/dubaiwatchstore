@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!post) return {};
   const loc = locale as Locale;
   return {
-    title: `${post.title[loc]} — Dubai Watch Store`,
+    title: `${post.title[loc]} — The Palm Collection`,
     description: post.excerpt[loc],
     openGraph: {
       title: post.title[loc],

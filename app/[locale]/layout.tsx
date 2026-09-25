@@ -22,9 +22,9 @@ export async function generateMetadata({
   const isAr = locale === 'ar';
 
   return {
-    title: 'Dubai Watch Store — Assembled in Dubai, Shipped Worldwide',
+    title: 'The Palm Collection — Three One-of-One Automatic Watches, Dubai',
     description:
-      'Trio of hand-assembled skeleton watches (DXB-01/02/03) built in Dubai on Japanese TMI NH70/71/72A automatics. 5,500 AED · free worldwide tracked shipping.',
+      'Three unique automatic watches with a hand-designed Palm dial. One of each, never repeated. Free worldwide tracked shipping.',
     metadataBase: new URL(SITE_URL),
     // Canonical и hreflang для каждой локали — Google больше не считает
     // en/ar «копиями без выбранного каноникала».
@@ -37,11 +37,11 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: 'Dubai Watch Store — Bold. Skeletonised. Unmistakably Dubai.',
+      title: 'The Palm Collection — Dubai, on your wrist.',
       description:
-        'A limited trio of hand-assembled skeleton timepieces. Built in Dubai. Free worldwide shipping.',
+        'Three one-of-one automatic watches with a hand-designed Palm dial. Free worldwide tracked shipping.',
       url: `${SITE_URL}/${locale}`,
-      siteName: 'Dubai Watch Store',
+      siteName: 'The Palm Collection',
       type: 'website',
       locale: isAr ? 'ar_AE' : 'en_AE',
       images: [
@@ -49,15 +49,15 @@ export async function generateMetadata({
           url: '/og.png',
           width: 1200,
           height: 630,
-          alt: 'Dubai Watch Store — hand-assembled skeleton trio built in Dubai',
+          alt: 'The Palm Collection — three one-of-one automatic watches with a Palm dial',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Dubai Watch Store',
+      title: 'The Palm Collection',
       description:
-        'A limited trio of hand-assembled skeleton timepieces. Built in Dubai.',
+        'Three one-of-one automatic watches with a hand-designed Palm dial.',
       images: ['/og.png'],
     },
     verification: {

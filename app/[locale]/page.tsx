@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { Collection } from '@/components/Collection';
+import { Dial } from '@/components/Dial';
 import { Motion } from '@/components/Motion';
 import { About } from '@/components/About';
 import { Policy } from '@/components/Policy';
@@ -22,6 +23,7 @@ export default async function Home({
       <Navbar />
       <Hero />
       <Collection />
+      <Dial />
       <Motion />
       <About />
       <Policy />

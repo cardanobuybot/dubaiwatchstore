@@ -9,7 +9,7 @@ export function Contact() {
       <div className="container-x">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            05 — {t('title')}
+            06 — Contact
           </p>
           <h2 className="font-display text-4xl text-white md:text-6xl">
             {t('title')}
@@ -18,7 +18,7 @@ export function Contact() {
 
           <div className="mt-12 flex flex-col items-center gap-4">
             <a
-              href={whatsappLink("Hello, I'd like to inquire about your collection.")}
+              href={whatsappLink("Hi, I'd like to reserve one of The Palm Collection (1 of 1).")}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold w-full sm:w-auto"

@@ -7,6 +7,7 @@ export function Policy() {
     { title: t('b1Title'), body: t('b1Body') },
     { title: t('b2Title'), body: t('b2Body') },
     { title: t('b3Title'), body: t('b3Body') },
+    { title: t('b4Title'), body: t('b4Body') },
   ];
 
   return (
@@ -14,14 +15,14 @@ export function Policy() {
       <div className="container-x">
         <div className="mb-14 max-w-2xl">
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-gold">
-            04 — {t('title')}
+            05 — {t('title')}
           </p>
           <h2 className="font-display text-4xl text-white md:text-5xl">
             {t('subtitle')}
           </h2>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {items.map((it) => (
             <div key={it.title} className="border-t border-white/10 pt-6">
               <h3 className="font-display text-xl text-gold">{it.title}</h3>

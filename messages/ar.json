@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "متجر ساعات دبي",
-    "tagline": "ساعات مختارة من دبي"
+    "name": "The Palm Collection",
+    "tagline": "Three One-of-One Automatic Watches from Dubai"
   },
   "nav": {
     "collection": "المجموعة",
@@ -18,77 +18,80 @@
     "empty": "لا توجد ملاحظات بعد."
   },
   "hero": {
-    "eyebrow": "منتقاة في دبي · جاهزة للشحن",
-    "title": "جريئة. مكشوفة الحركة. من دبي بامتياز.",
-    "subtitle": "ثلاث ساعات بميناء مكشوف مُجمَّعة يدوياً في هيكل رياضي فاخر — مباشرةً من دبي.",
-    "cta": "استعرض المجموعة"
+    "eyebrow": "The Palm Collection · Three Pieces. Never Repeated.",
+    "title": "Dubai, on your wrist.",
+    "subtitle": "Three automatic watches built around one idea: the Palm, drawn into the dial. One of each finish. When they're gone, they're gone.",
+    "cta": "View the Three"
   },
   "collection": {
-    "title": "المجموعة",
-    "subtitle": "ثلاث لمسات. سعر واحد. شحن مجاني حول العالم.",
+    "title": "The Collection",
+    "subtitle": "Three watches. Three owners. That's it.",
     "price": "5,500 درهم",
     "priceUsd": "≈ 1,499 دولار",
     "shipping": "شحن مجاني حول العالم",
-    "limitedBadge": "إصدار محدود · سلسلة دبي",
-    "inquire": "استفسر عبر واتساب",
-    "payRevolut": "ادفع عبر Revolut",
-    "condition": "الحالة",
-    "year": "السنة",
-    "reference": "المرجع"
+    "limitedBadge": "1 of 1",
+    "inquire": "Reserve on WhatsApp",
+    "payRevolut": "Pay via Revolut",
+    "specsLabel": "المواصفات"
+  },
+  "dial": {
+    "eyebrow": "The Dial",
+    "title": "Why the Palm.",
+    "body1": "Some places you visit. Dubai is a place you carry with you. The Palm is its signature, a shape you recognise from the sky and never forget.",
+    "body2": "I designed the dial around it and built each watch by hand from carefully chosen parts. Then I stopped at three. No series, no restock, no second edition. Each piece is engraved 1/1 on the case back."
   },
   "about": {
-    "title": "مباشرة. خصوصية. دبي.",
-    "body": "نعمل بصورة خاصة من دبي، ونقدّم مجموعة منتقاة من الساعات المُجمَّعة يدوياً بميناء مكشوف — قائمة على حركات يابانية أوتوماتيكية من TMI في هياكل رياضية فاخرة بأغطية خلفية شفافة. تُفحص كل قطعة قبل الشحن. لا معرض، لا وسطاء — فقط تواصل مباشر."
+    "title": "One maker. Three watches.",
+    "body": "This isn't a store. It's a small personal project: a watch I wanted to exist, made in three finishes. Every piece is inspected, wound and tested before it ships. You deal directly with me, from the first message to the tracking number."
   },
   "policy": {
-    "title": "الشروط",
-    "subtitle": "يرجى القراءة قبل الشراء.",
-    "b1Title": "البيع نهائي",
-    "b1Body": "جميع عمليات البيع نهائية. تُفحص كل ساعة وتُعبّأ ويُتأكد من عملها قبل الشحن. لا تُقبل الإرجاعات ولا الاستردادات.",
-    "b2Title": "بائع خاص",
-    "b2Body": "أنا فرد خاص ولست منفذاً تجارياً. لا معرض، لا مكتب ضمان — بيع مباشر فقط.",
-    "b3Title": "شحن حول العالم",
-    "b3Body": "شحن مجاني مع تتبع إلى أي دولة. يتحمّل المشتري أي رسوم جمركية أو ضرائب في بلد الوصول."
+    "title": "Before you buy",
+    "subtitle": "Four things to know.",
+    "b1Title": "One of one",
+    "b1Body": "Each watch exists only once. The piece you see is the piece you receive.",
+    "b2Title": "Warranty",
+    "b2Body": "12 months on the movement. If it stops keeping time, I'll repair it.",
+    "b3Title": "Shipping",
+    "b3Body": "Free tracked worldwide shipping. Import duties and taxes in your country are paid by the buyer.",
+    "b4Title": "Sales",
+    "b4Body": "Private sale, not a retail establishment."
   },
   "contact": {
-    "title": "لنبدأ الحوار",
-    "subtitle": "استفسارات مباشرة فقط. رد خلال ساعة، سبعة أيام في الأسبوع.",
-    "whatsapp": "راسلنا عبر واتساب",
-    "orPay": "أو ادفع مباشرةً عبر Revolut"
+    "title": "Claim yours before someone else does.",
+    "subtitle": "Message me directly. I usually reply within the hour.",
+    "whatsapp": "Message on WhatsApp",
+    "orPay": "Or pay directly via Revolut"
   },
   "motion": {
-    "eyebrow": "على المعصم · وسط دبي",
-    "title": "شاهدها بالحركة.",
-    "subtitle": "مصوّرة عند برج خليفة. تشتغل تلقائياً بدون صوت."
+    "eyebrow": "On the Wrist",
+    "title": "See them in Dubai.",
+    "subtitle": "Filmed at the foot of Burj Khalifa."
   },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",
-    "disclaimer": "بيع خاص من قِبل جامع مقيم في الإمارات. ليس منفذاً تجارياً."
+    "disclaimer": "The Palm dial is an original design, not affiliated with any developer or watch brand."
   },
   "watches": {
     "w1": {
-      "brand": "سلسلة دبي",
-      "model": "ميناء مكشوف · أسود DLC",
-      "reference": "DXB-01",
-      "year": "2025",
-      "condition": "جديدة — غير مستعملة",
-      "description": "حركة TMI NH72A أوتوماتيكية مع تعبئة يدوية وإيقاف الثواني. جسور سوداء وياقوت داكن. علبة وسوار مدمج بطلاء PVD/DLC أسود. ميناء مكشوف مع غطاء خلفي شفاف. 24 حجرًا · 21,600 اهتزاز/ساعة · احتياطي طاقة نحو 41 ساعة."
+      "brand": "The Palm",
+      "model": "Black",
+      "tagline": "Midnight over the Palm.",
+      "description": "Black DLC case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH72A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     },
     "w2": {
-      "brand": "سلسلة دبي",
-      "model": "ميناء مكشوف · فولاذ",
-      "reference": "DXB-02",
-      "year": "2025",
-      "condition": "جديدة — غير مستعملة",
-      "description": "حركة TMI NH70A أوتوماتيكية مع تعبئة يدوية وإيقاف الثواني. علبة وسوار مدمج من الفولاذ المقاوم للصدأ — لمسة مصنفرة ومصقولة. ميناء مكشوف مع غطاء خلفي شفاف. 24 حجرًا · 21,600 اهتزاز/ساعة · احتياطي طاقة نحو 41 ساعة."
+      "brand": "The Palm",
+      "model": "Steel",
+      "tagline": "Daylight on the water.",
+      "description": "Brushed and polished stainless steel case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH70A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     },
     "w3": {
-      "brand": "سلسلة دبي",
-      "model": "ميناء مكشوف · ذهبي PVD",
-      "reference": "DXB-03",
-      "year": "2025",
-      "condition": "جديدة — غير مستعملة",
-      "description": "حركة TMI NH71A أوتوماتيكية مع تعبئة يدوية وإيقاف الثواني. جسور ودوّار مطليان بالذهب. علبة وسوار مدمج بطلاء ذهبي PVD. ميناء مكشوف مع غطاء خلفي شفاف. 24 حجرًا · 21,600 اهتزاز/ساعة · احتياطي طاقة نحو 41 ساعة."
+      "brand": "The Palm",
+      "model": "Gold",
+      "tagline": "Sunset over the fronds.",
+      "description": "Gold PVD case and integrated bracelet, with the Palm silhouette at the heart of the dial. Exhibition case back.",
+      "specs": "Automatic NH71A · hand-winding · hacking seconds · 24 jewels · ~41h power reserve"
     }
   }
 }
