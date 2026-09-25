@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
-import { posts } from '@/content/blog/posts';
+import { listPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://dubaiwatchstore.ae';
@@ -19,10 +19,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     });
-    for (const post of posts) {
+    for (const post of listPosts(locale)) {
       entries.push({
-        url: `${base}/${locale}/blog/${post.slug}`,
-        lastModified: new Date(post.date),
+        url: `${base}/${locale}/blog/${post.frontmatter.slug}`,
+        lastModified: new Date(post.frontmatter.updatedAt),
         changeFrequency: 'monthly',
         priority: 0.7,
       });

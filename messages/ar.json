@@ -15,7 +15,17 @@
     "subtitle": "كتابات متفرّقة حول الحركات والهياكل والتفاصيل خلف كل قطعة.",
     "readMore": "اقرأ الملاحظة",
     "back": "كل الملاحظات",
-    "empty": "لا توجد ملاحظات بعد."
+    "empty": "لا توجد ملاحظات بعد.",
+    "breadcrumbHome": "الرئيسية",
+    "toc": "في هذه المقالة",
+    "related": "ملاحظات ذات صلة",
+    "authorLabel": "عن الكاتب",
+    "authorBio": "بقلم {author}، صانع مجموعة The Palm.",
+    "updatedOn": "آخر تحديث: {date}",
+    "readingTime": "{minutes} دقائق قراءة",
+    "faq": "الأسئلة الشائعة",
+    "prev": "أحدث",
+    "next": "أقدم"
   },
   "hero": {
     "eyebrow": "The Palm Collection · Three Pieces. Never Repeated.",

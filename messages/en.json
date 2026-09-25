@@ -15,7 +15,17 @@
     "subtitle": "Occasional writings on the movements, cases, and details behind each piece.",
     "readMore": "Read the note",
     "back": "All notes",
-    "empty": "No notes yet."
+    "empty": "No notes yet.",
+    "breadcrumbHome": "Home",
+    "toc": "In this article",
+    "related": "Related notes",
+    "authorLabel": "About the author",
+    "authorBio": "Written by {author}, maker of The Palm Collection.",
+    "updatedOn": "Updated: {date}",
+    "readingTime": "{minutes} min read",
+    "faq": "FAQ",
+    "prev": "Newer",
+    "next": "Older"
   },
   "hero": {
     "eyebrow": "The Palm Collection · Three Pieces. Never Repeated.",
