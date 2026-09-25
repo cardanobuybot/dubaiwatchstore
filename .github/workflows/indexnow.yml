@@ -1,0 +1,22 @@
+name: indexnow-ping
+
+# Fires when Vercel reports a successful Production deployment for this
+# repo. Preview deploys are ignored — the environment for those is a
+# preview URL, not "Production".
+
+on:
+  deployment_status:
+
+jobs:
+  ping:
+    if: ${{ github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.environment, 'Production') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Wait 20 s for cache warm-up
+        run: sleep 20
+      - name: Submit sitemap URLs to IndexNow
+        run: node scripts/indexnow.mjs

@@ -7,6 +7,7 @@ import { About } from '@/components/About';
 import { Policy } from '@/components/Policy';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
+import { HomeJsonLd } from '@/components/JsonLd';
 
 export default async function Home({
   params,
@@ -26,6 +27,10 @@ export default async function Home({
       <Policy />
       <Contact />
       <Footer />
+      {/* Structured data: Organization + WebSite + 3 Products (DXB-01/02/03).
+          Enables Google Rich Results (price, availability) and gives AI
+          crawlers a canonical view of the inventory. */}
+      <HomeJsonLd locale={locale} />
     </main>
   );
 }

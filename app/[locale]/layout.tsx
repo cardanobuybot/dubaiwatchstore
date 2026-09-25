@@ -19,10 +19,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
 
+  const isAr = locale === 'ar';
+
   return {
     title: 'Dubai Watch Store — Assembled in Dubai, Shipped Worldwide',
     description:
-      'A limited trio of Seiko Mod skeleton timepieces inspired by Palm Jumeirah. Japanese TMI movements. Assembled in Dubai. Free worldwide shipping.',
+      'Trio of Seiko Mod skeleton watches (DXB-01/02/03) assembled in Dubai. TMI NH70/71/72A automatics. 5,500 AED · free worldwide tracked shipping.',
     metadataBase: new URL(SITE_URL),
     // Canonical и hreflang для каждой локали — Google больше не считает
     // en/ar «копиями без выбранного каноникала».
@@ -35,13 +37,28 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: 'Dubai Watch Store',
+      title: 'Dubai Watch Store — Bold. Skeletonised. Unmistakably Dubai.',
       description:
-        'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai.',
+        'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai. Free worldwide shipping.',
       url: `${SITE_URL}/${locale}`,
       siteName: 'Dubai Watch Store',
       type: 'website',
-      locale: locale === 'ar' ? 'ar_AE' : 'en_AE',
+      locale: isAr ? 'ar_AE' : 'en_AE',
+      images: [
+        {
+          url: '/og.png',
+          width: 1200,
+          height: 630,
+          alt: 'Dubai Watch Store — Seiko Mod skeleton trio assembled in Dubai',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Dubai Watch Store',
+      description:
+        'A limited trio of Seiko Mod skeleton timepieces. Assembled in Dubai.',
+      images: ['/og.png'],
     },
     verification: {
       google: 'VLFCe_9aYn3PBBDTp8otVOhLO8St893nyIV6yOfaNts',
