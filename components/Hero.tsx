@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { HeroPlayer } from './HeroPlayer';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -22,6 +23,7 @@ export function Hero() {
         <a href="#collection" className="btn-gold mt-12">
           {t('cta')}
         </a>
+        <HeroPlayer />
       </div>
     </section>
   );

@@ -33,6 +33,11 @@
     "subtitle": "Three automatic watches built around one idea: the Palm, drawn into the dial. One of each finish. When they're gone, they're gone.",
     "cta": "View the Three"
   },
+  "heroPlayer": {
+    "playLabel": "تشغيل · ضوء قمر دبي",
+    "ariaPlay": "تشغيل تحت قمر دبي على يوتيوب",
+    "onYouTube": "على يوتيوب"
+  },
   "collection": {
     "title": "The Collection",
     "subtitle": "Three watches. Three owners. That's it.",
